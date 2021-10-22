@@ -18,7 +18,494 @@
     <title>Ida Sofie`s portfolio</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <main>
+      <header class="header_andre">
+        <nav class="navbar mx-3 navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-link" href="index.html">
+              <h2>Ida Sofie Papp Svendsen</h2>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Hjem</a>
+                <a class="nav-link" href="om.html">Om</a>
+                <a class="nav-link" href="projekter.html">Projekt</a>
+                <a class="nav-link" href="kunst.html">Min kunst</a>
+                <a class="nav-link" href="kontakt.html">kontakt</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="container-fluid">
+        <section>
+          <div class="banner"></div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="projekter_sektione">
+            <div class="row mx-5 mb-5">
+              <div class="col-12">
+                <h2>Udpluk af mine studieprojekter</h2>
+               
+              </div>
+            </div>
+      </div>
+     
+
+      <div class="container mb-5">
+        <!-- spil sektionen -->
+        <section id="spil">
+          <div class="row mx-5">
+            <div class="pe-md-4 col-12 col-md-8">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide h-100"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/start_billed.webp"
+                      class="d-block w-100"
+                      alt="start billed"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/spille_skearm.webp"
+                      class="d-block w-100"
+                      alt="spille skærm"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/taber.webp"
+                      class="d-block w-100"
+                      alt="taber skrærm"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/vider.webp"
+                      class="d-block w-100"
+                      alt="vinder skrærm"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="ps.md-4 col-12 col-md-4">
+              <h2>Musse Snacken</h2>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <strong>Projekt tema:</strong> Animation
+                </li>
+                <li class="list-group-item">
+                  <strong>Semester:</strong> 1. semester
+                </li>
+                <li class="list-group-item">
+                  <strong>Prøv spillet her: </strong
+                  ><a
+                    class="link_projekter"
+                    href="http://pappdesign.dk/kea/04_animation/spil_v2/index.html"
+                    target="_blank"
+                  >
+                    Klik på mig</a
+                  >
+                </li>
+              </ul>
+
+              <p>
+                Kan du huske de gode gamle klikspil? Sådan et udviklede jeg på
+                mit 1. semester via HTML, CSS og JavaScript. Alle spillets
+                elementer og figurer er tegnet Adobe Illustrator og lydene er
+                egen stemme.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eksamens sektionen  -->
+      <div class="container my-5">
+        <section id="eksmane" class="py-5">
+          <div class="row mx-5">
+            <div class="pe-md-4 col-12 col-md-4">
+              <h2>Tier1MTG</h2>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <strong>Projekt tema:</strong> Eksamens projekt
+                </li>
+                <li class="list-group-item">
+                  <strong>Semester:</strong> 2. semester
+                </li>
+                <li class="list-group-item">
+                  <strong>Se projekt: </strong
+                  ><a
+                    class="link_projekter"
+                    href="http://pappdesign.dk/kea/2_semester/eksamen/tier1mtg/"
+                    target="_blank"
+                  >
+                    Klik på mig</a
+                  >
+                </li>
+              </ul>
+
+              <p>
+                Til 2. semesters eksamensprojekt skulle min studiegruppe og jeg,
+                redesign en startup virksomhed. Her stod jeg for størstedelen af
+                designprocessen, med udformningen af det visuelle udtryk og
+                sitets funktionalitet. En udfordring jeg fandt utroligt
+                spændende og lærerigt.
+              </p>
+            </div>
+            <div class="ps-md-4 col-12 col-md-8">
+              <div
+                id="carouselExampleIndicators_1"
+                class="carousel slide h-100"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators_1">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_1"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_1"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_1"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_1"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner_1">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/splach.webp"
+                      class="d-block w-100"
+                      alt="start billed"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/eksamen_start.webp"
+                      class="d-block w-100"
+                      alt="spille skærm"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/eksame_filter.webp"
+                      class="d-block w-100"
+                      alt="taber skrærm"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/singel_view_eksamen.webp"
+                      class="d-block w-100"
+                      alt="singe"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev_1"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators_1"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next_1"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators_1"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+  
+
+      <!-- content markedting sektionen  -->
+      <div class="container my-5">
+        <section id="fars_snaps" class="py-5">
+          <div class="row mx-5">
+            
+            <div class="pe-md-4 col-12 col-md-8">
+              <div
+                id="carouselExampleIndicators_2"
+                class="carousel slide h-100"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators_2">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_2"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_2"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_2"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators_2"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner_2">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/far_splach.webp"
+                      class="d-block w-100"
+                      alt="hero billed"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/rette_stor_info.png"
+                      class="d-block w-100"
+                      alt="infografik"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/far_some.webp"
+                      class="d-block w-100"
+                      alt="some"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/far_grafik.webp"
+                      class="d-block w-100"
+                      alt="grafisk elementer"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev_2"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators_2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next_2"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators_2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="ps-md-4 col-12 col-md-4">
+                <h2>Far`s snaps
+              </h2>
+  
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <strong>Projekt tema:</strong> Content Marketing
+  
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Semester:</strong> 3. semester
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Se projekt: </strong
+                    ><a
+                      class="link_projekter"
+                      href="https://pappdesign.dk/kea/3_semester/tema12/fars_snaps/"
+                      target="_blank"
+                    >
+                      Klik på mig</a
+                    >
+                  </li>
+                </ul>
+  
+                <p>
+                  Under dette projekt skulle jeg, via et mikro-site, markedsføre et selvopfundet produkt. Sitet er udviklet i Bootstrap. Jeg valgt en meget grafisk og skæv tilgang til projekter, da jeg elsker at skabe personlige historier gennem mit grafiske tryk, i sammenspil med copy-writing. 
+                </p>
+              </div>
+          </div>
+        </section>
+      <!-- websuater sketionen  -->
+      <div class="container my-5">
+        <section id="webfuater" class="py-5" >
+          <div class="row mx-5">
+            <div class="pe-md-4 col-12 col-md-4">
+                <h2>En skygge af mig selv </h2>
+  
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <strong>Projekt tema:</strong> Webfeature
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Semester:</strong> 3. semester
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Se projekt: </strong
+                    ><a
+                      class="link_projekter"
+                      href="https://pappdesign.dk/kea/3_semester/webfeature/corona_wp/"
+                      target="_blank"
+                    >
+                      Klik på mig</a
+                    >
+                  </li>
+                </ul>
+  
+                <p>Til dette projekt, har jeg arbejdet med digital journalistik og samspillet mellem indhold og webdesign. For at fortælle min erfaringspersons historie, var jeg inde og arbejde med copy-writing, video og billede redigering. Hertil opsatte jeg websitet med Divi Builder i WordPress. </p>
+              </div>
+            
+            <div class="ps-md-4 row col-12 col-md-8">
+                <div class="col-12 col-md-6">
+                    <img
+                      src="img/video/dato_rettet.gif"
+                      class="img-fluid  d-block w-100"
+                      alt="hero billed"
+                    />
+                    <video width="355" height="240" controls loop>
+                        <source src="img/video/tema11_here_video_menneske.mp4" type="video/mp4">
+                      </video>
+                </div>
+                <div class="col-6">
+
+                    <img
+                    src="img/billed_fra_sidet.webp"
+                    class="img-fluid  d-block w-100"
+                    alt="hero billed"
+                  />
+                    <video width="355" height="240" controls loop>
+                        <source src="img/video/Christina_svimmel.mp4" type="video/mp4">
+                      </video>
+                </div>
+                
+            </div>
+           
+          </div>
+        </section>
+      </div>
+
+      </div>
+    </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
